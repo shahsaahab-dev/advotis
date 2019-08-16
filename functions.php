@@ -7,6 +7,9 @@
  * @package advotis
  */
 
+define('ctr',get_template_directory());
+define('ctri',get_template_directory_uri());
+
 if ( ! function_exists( 'advotis_theme_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -136,6 +139,7 @@ add_action( 'wp_enqueue_scripts', 'advotis_theme_scripts' );
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
+require ctr . '/inc/enqueue.php';
 
 /**
  * Custom template tags for this theme.
