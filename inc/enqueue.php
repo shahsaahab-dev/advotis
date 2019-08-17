@@ -19,10 +19,9 @@ wp_enqueue_style('responsive' , ctri . '/css/responsive.css' , array(), '1.0' , 
 
 wp_enqueue_script('popper' , ctri . '/js/popper.min.js' , array('jquery'), '1.0' , true);
 wp_enqueue_script('bootstrap' , ctri . '/js/bootstrap.min.js' , array('jquery'), '1.0' , true);
-wp_enqueue_script('nice-select-js' , ctri . '/vendors/nice-selector/js/jquery.nice-select.min.js' , array('jquery'), '1.0' , true);
+wp_enqueue_script('nice-select-js' , ctri . '/vendors/nice-selector/js/jquery.nice-select.min.js' , array(null), '1.0' , true);
 wp_enqueue_script('owl-carousel-js' , ctri . '/vendors/owl-carousel/owl.carousel.min.js' , array('jquery'), '1.0' , true);
 wp_enqueue_script('magnificpopup' , ctri . '/vendors/popup/jquery.magnific-popup.min.js' , array('jquery'), '1.0' , true);
-wp_enqueue_script('nice-select-js' , ctri . '/vendors/nice-selector/js/jquery.nice-select.min.js' , array('jquery'), '1.0' , true);
   
 }
 

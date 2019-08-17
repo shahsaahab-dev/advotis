@@ -12,7 +12,7 @@
  * @package advotis
  */
 
-get_header();
+get_header('sec');
 ?>
 
 	<div id="primary" class="content-area">
@@ -56,4 +56,4 @@ get_header();
 
 <?php
 get_sidebar();
-get_footer();
+get_footer('main');
